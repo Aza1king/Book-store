@@ -1,0 +1,24 @@
+.cart {
+  font-size: 32px;
+  position: fixed;
+  z-index: 1000;
+  bottom: 40px; 
+  right: 20px;
+  text-decoration: none;
+  background-color: #007bff;
+
+  border: 2px solid rgba(0, 0, 0, 0); 
+  border-radius: 40px; 
+  padding: 10px; 
+  color: aliceblue;
+  
+}
+.cart:hover{
+background-color: floralwhite;
+  transition: 0.3s;
+  color: #007bff;
+  
+}
+
+
+

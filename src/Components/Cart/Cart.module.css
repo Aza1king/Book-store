@@ -1,0 +1,75 @@
+.container {
+    margin: 20px;
+    max-width: 800px;
+    margin: auto; 
+  }
+  
+  .header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .addButton,
+  .removeButton {
+    margin-right: 8px; 
+  }
+  
+  .emptyCartMessage {
+    background-color: #007bff;
+    font-size: 32px;
+    color: #000000a4;
+    text-align: center;
+    padding: 150px;
+  
+    margin: auto;
+  }
+  .link {
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0); 
+    padding: 5px 10px;
+    color: #ffffff;
+  background-color: #007bff;
+  border-radius: 30px;
+  font-size: 22px;
+  position: fixed;
+  z-index: 1000;
+  bottom: 40px; 
+  right: 20px;
+  text-decoration: none;
+
+  }
+  .link:hover{
+    background-color: #ffffff;
+    color: #007bff;
+    transition: 0.4s;
+
+  }
+  .total{
+    border: 2px solid rgba(255, 255, 255, 0); 
+    padding: 5px 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  right: 20px;
+  text-align: center;
+  width: 100%;
+  
+position: relative;
+
+
+  }
+
